@@ -1,0 +1,82 @@
+﻿@{
+    ViewData["Title"] = "Paquetes y Componentes Estándares en MVC";
+}
+
+<h2>@ViewData["Title"]</h2>
+<p>A continuación, se describen los paquetes y componentes más comunes utilizados en un proyecto MVC con ASP.NET Core:</p>
+
+<div class="container">
+    <div class="row">
+        <!-- Entity Framework Core -->
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h4>Entity Framework Core</h4>
+                </div>
+                <div class="card-body">
+                    <p>Entity Framework Core es un ORM (Object-Relational Mapper) que facilita la interacción con la base de datos mediante código C#. Permite trabajar con datos como objetos y proporciona soporte para migraciones.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Entity Framework Tools -->
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-header bg-secondary text-white">
+                    <h4>Entity Framework Tools</h4>
+                </div>
+                <div class="card-body">
+                    <p>Herramientas que ayudan a crear y aplicar migraciones para gestionar el esquema de la base de datos. Estas herramientas facilitan la creación de comandos en la consola para trabajar con la base de datos.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Entity Framework Design -->
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-header bg-success text-white">
+                    <h4>Entity Framework Design</h4>
+                </div>
+                <div class="card-body">
+                    <p>Este paquete proporciona los componentes necesarios para el diseño de la base de datos y permite la generación de migraciones desde el código.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SQL Server -->
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-header bg-danger text-white">
+                    <h4>SQL Server</h4>
+                </div>
+                <div class="card-body">
+                    <p>Es el sistema de gestión de bases de datos que se utiliza en la mayoría de proyectos .NET Core. Se configura fácilmente mediante el paquete de NuGet <code>Microsoft.EntityFrameworkCore.SqlServer</code>.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ASP.NET Core Identity -->
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-header bg-warning text-white">
+                    <h4>ASP.NET Core Identity</h4>
+                </div>
+                <div class="card-body">
+                    <p>Un sistema de autenticación que permite manejar el registro, inicio de sesión, roles, y permisos de usuarios en la aplicación. Se integra fácilmente con Entity Framework Core.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Razor -->
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-header bg-info text-white">
+                    <h4>Razor</h4>
+                </div>
+                <div class="card-body">
+                    <p>Razor es el motor de vistas de ASP.NET Core. Permite escribir plantillas HTML con lógica en C#. Esto facilita la separación de las vistas del código del controlador y permite generar contenido dinámico.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

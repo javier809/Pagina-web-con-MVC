@@ -1,0 +1,97 @@
+﻿@model dynamic
+@{
+    ViewData["Title"] = "Procedimiento para Crear la Base de Datos";
+}
+
+<h2>@ViewData["Title"]</h2>
+<p>Este es el procedimiento paso a paso para crear una base de datos y realizar la configuración mínima en un proyecto MVC utilizando Entity Framework Core y SQL Server.</p>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h4>1. Agregar Entity Framework Core y SQL Server</h4>
+                </div>
+                <div class="card-body">
+                    <p>Primero, necesitas agregar los paquetes NuGet necesarios para trabajar con Entity Framework Core y SQL Server. Los paquetes son:</p>
+                    <ul>
+                        <li><strong>Microsoft.EntityFrameworkCore</strong></li>
+                        <li><strong>Microsoft.EntityFrameworkCore.SqlServer</strong></li>
+                        <li><strong>Microsoft.EntityFrameworkCore.Tools</strong></li>
+                    </ul>
+                    <p>Puedes instalarlos utilizando la consola de NuGet o el administrador de paquetes NuGet de Visual Studio. Si prefieres la consola, ejecuta los siguientes comandos:</p>
+                    <pre><code>Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package Microsoft.EntityFrameworkCore.Tools</code></pre>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-header bg-secondary text-white">
+                    <h4>2. Configurar la cadena de conexión en appsettings.json</h4>
+                </div>
+                <div class="card-body">
+                    <p>A continuación, debes configurar la cadena de conexión a la base de datos en el archivo <code>appsettings.json</code>. Asegúrate de que la cadena de conexión apunte a tu servidor SQL y base de datos deseada:</p>
+                    <pre><code>
+"ConnectionStrings": {
+    "DefaultConnection": "Server=.;Database=MiBaseDeDatos;Trusted_Connection=True;MultipleActiveResultSets=true"
+}
+                    </code></pre>
+                    <p>Esta configuración indica que la base de datos <strong>MiBaseDeDatos</strong> será creada en el servidor local (indicado por <code>.</code>).</p>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-header bg-success text-white">
+                    <h4>3. Crear el DbContext</h4>
+                </div>
+                <div class="card-body">
+                    <p>El siguiente paso es crear el contexto de base de datos. Este contexto es una clase que se encarga de manejar las operaciones con la base de datos. Debes crear una clase en la carpeta <code>Data</code> llamada <code>ApplicationDB.cs</code>:</p>
+                    <pre><code>
+using Microsoft.EntityFrameworkCore;
+
+namespace TuProyecto.Data
+{
+    public class ApplicationDB : DbContext
+    {
+        public ApplicationDB(DbContextOptions&lt;ApplicationDB&gt; options) : base(options) { }
+
+        public DbSet&lt;Producto&gt; Productos { get; set; }  // Ejemplo de entidad
+    }
+}
+                    </code></pre>
+                    <p>La clase <code>ApplicationDB</code> representa el contexto que conectará tu aplicación a la base de datos.</p>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-header bg-info text-white">
+                    <h4>4. Configurar el DbContext en Program.cs</h4>
+                </div>
+                <div class="card-body">
+                    <p>Ahora debes registrar el contexto en el archivo <code>Program.cs</code>. Agrega la siguiente línea en la configuración de servicios:</p>
+                    <pre><code>
+var builder = WebApplication.CreateBuilder(args);
+
+// Configuración del contexto de base de datos
+builder.Services.AddDbContext&lt;ApplicationDB&gt;(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                    </code></pre>
+                    <p>Este código configura Entity Framework para que use SQL Server como el proveedor de base de datos y le indica que utilice la cadena de conexión configurada en <code>appsettings.json</code>.</p>
+                </div>
+            </div>
+
+            <div class="card mb-4">
+                <div class="card-header bg-danger text-white">
+                    <h4>5. Crear una Migración e Inicializar la Base de Datos</h4>
+                </div>
+                <div class="card-body">
+                    <p>Una vez que hayas configurado todo, puedes crear una migración para generar el esquema de la base de datos. Usa los siguientes comandos en la consola del Administrador de Paquetes de Visual Studio:</p>
+                    <pre><code>Add-Migration InitialCreate
+Update-Database</code></pre>
+                    <p>El comando <code>Add-Migration</code> genera un archivo de migración basado en tus modelos y <code>Update-Database</code> aplica esta migración a la base de datos, creando las tablas correspondientes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-4">
+    <h1 class="display-4 text-center">Resumen del Proyecto MVC</h1>
+    <p class="text-center">A continuación se describen los temas que serán abordados en este proyecto:</p>
+
+    <div class="card mt-4">
+        <div class="card-header bg-primary text-white">
+            <h2>1. Proceso de Creación de un Proyecto MVC</h2>
+        </div>
+        <div class="card-body">
+            <p>El proceso de creación de un proyecto MVC en .NET Core sigue estos pasos:</p>
+            <ul>
+                <li><strong>Crear el proyecto:</strong> Utiliza Visual Studio o la línea de comandos para crear un nuevo proyecto MVC con el comando <code>dotnet new mvc</code> o seleccionando el template de MVC en Visual Studio.</li>
+                <li><strong>Configurar el proyecto:</strong> Configura las dependencias necesarias como Entity Framework y otros paquetes que vayas a utilizar.</li>
+                <li><strong>Agregar controladores y vistas:</strong> Crea controladores que manejen la lógica y vistas que presenten los datos al usuario.</li>
+                <li><strong>Configurar rutas:</strong> Asegúrate de que las rutas estén correctamente definidas en <code>Startup.cs</code> o <code>Program.cs</code> para que las URLs funcionen según lo esperado.</li>
+                <li><strong>Ejecutar el proyecto:</strong> Ejecuta el proyecto usando <code>dotnet run</code> o directamente desde Visual Studio para ver la aplicación en funcionamiento.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card mt-4">
+        <div class="card-header bg-secondary text-white">
+            <h2>2. Paquetes y Componentes Estándares en un Proyecto MVC</h2>
+        </div>
+        <div class="card mt-4">
+            <div class="card-body">
+                <p>En este proyecto MVC utilizamos los siguientes paquetes y componentes:</p>
+                <ul>
+                    <li><strong>Entity Framework Core:</strong> Para la interacción con la base de datos, permitiendo mapear objetos a tablas relacionales.</li>
+                    <li><strong>Entity Framework Tools:</strong> Herramientas que proporcionan comandos para manejar migraciones y actualizaciones de la base de datos.</li>
+                    <li><strong>Entity Framework Design:</strong> Incluye los paquetes necesarios para generar y aplicar migraciones de bases de datos.</li>
+                    <li><strong>SQL Server:</strong> La base de datos relacional que utilizamos en el proyecto para almacenar los datos. </li>
+               <ul>
+            </div>
+    </div>
+
+    <div class="card mt-4">
+        <div class="card-header bg-success text-white">
+            <h2>3. Procedimiento para Crear la Base de Datos y Configuración Mínima</h2>
+        </div>
+        <div class="card-body">
+            <p>Para crear y configurar una base de datos en un proyecto MVC, sigue estos pasos:</p>
+            <ul>
+                <li><strong>Definir el contexto de datos:</strong> Crea una clase que herede de <code>DbContext</code> y define las entidades que representarán tus tablas.</li>
+                <li><strong>Configurar la cadena de conexión:</strong> Añade la cadena de conexión de la base de datos en el archivo <code>appsettings.json</code>.</li>
+                <li><strong>Agregar migraciones:</strong> Usa los comandos <code>Add-Migration</code> y <code>Update-Database</code> para crear la base de datos y sus tablas.</li>
+                <li><strong>Instalar Entity Framework Core:</strong> Asegúrate de tener instalado <code>Microsoft.EntityFrameworkCore.SqlServer</code> para usar SQL Server.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card mt-4">
+        <div class="card-header bg-info text-white">
+            <h2>4. Pasos para Realizar la Copia del Código en Git</h2>
+        </div>
+        <div class="card-body">
+            <p>Sigue estos pasos para realizar una copia de tu código en Git:</p>
+            <ul>
+                <li><strong>Inicializar el repositorio:</strong> Navega a la carpeta del proyecto y ejecuta <code>git init</code> para inicializar un repositorio local.</li>
+                <li><strong>Añadir archivos al repositorio:</strong> Ejecuta <code>git add .</code> para añadir todos los archivos al índice.</li>
+                <li><strong>Realizar el primer commit:</strong> Ejecuta <code>git commit -m "Inicializar el proyecto MVC"</code> para guardar los cambios en el repositorio.</li>
+                <li><strong>Vincular el repositorio remoto:</strong> Crea un repositorio en GitHub (o cualquier plataforma) y enlázalo con el comando <code>git remote add origin &lt;URL_DEL_REPOSITORIO&gt;</code>.</li>
+                <li><strong>Subir el código:</strong> Sube tu código con <code>git push -u origin master</code>.</li>
+            </ul>
+        </div>
+    </div>
+</div>

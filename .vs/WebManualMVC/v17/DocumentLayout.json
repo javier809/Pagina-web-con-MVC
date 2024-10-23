@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\javie\\OneDrive\\Escritorio\\Nueva carpeta\\WebManualMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA009ECE-311F-4A14-AA96-2D425DE49440}|WebManualMVC\\WebManualMVC.csproj|c:\\users\\javie\\onedrive\\escritorio\\nueva carpeta\\webmanualmvc\\webmanualmvc\\views\\githut\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA009ECE-311F-4A14-AA96-2D425DE49440}|WebManualMVC\\WebManualMVC.csproj|solutionrelative:webmanualmvc\\views\\githut\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA009ECE-311F-4A14-AA96-2D425DE49440}|WebManualMVC\\WebManualMVC.csproj|C:\\Users\\javie\\OneDrive\\Escritorio\\Nueva carpeta\\WebManualMVC\\webmanualmvc\\controllers\\githutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA009ECE-311F-4A14-AA96-2D425DE49440}|WebManualMVC\\WebManualMVC.csproj|solutionrelative:webmanualmvc\\controllers\\githutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA009ECE-311F-4A14-AA96-2D425DE49440}|WebManualMVC\\WebManualMVC.csproj|C:\\Users\\javie\\OneDrive\\Escritorio\\Nueva carpeta\\WebManualMVC\\webmanualmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA009ECE-311F-4A14-AA96-2D425DE49440}|WebManualMVC\\WebManualMVC.csproj|solutionrelative:webmanualmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA009ECE-311F-4A14-AA96-2D425DE49440}|WebManualMVC\\WebManualMVC.csproj|C:\\Users\\javie\\OneDrive\\Escritorio\\Nueva carpeta\\WebManualMVC\\webmanualmvc\\views\\crearbasedatos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA009ECE-311F-4A14-AA96-2D425DE49440}|WebManualMVC\\WebManualMVC.csproj|solutionrelative:webmanualmvc\\views\\crearbasedatos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 685,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\javie\\OneDrive\\Escritorio\\Nueva carpeta\\WebManualMVC\\WebManualMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebManualMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\javie\\OneDrive\\Escritorio\\Nueva carpeta\\WebManualMVC\\WebManualMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebManualMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T21:28:18.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\javie\\OneDrive\\Escritorio\\Nueva carpeta\\WebManualMVC\\WebManualMVC\\Views\\GitHut\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebManualMVC\\Views\\GitHut\\Index.cshtml",
+              "ToolTip": "C:\\Users\\javie\\OneDrive\\Escritorio\\Nueva carpeta\\WebManualMVC\\WebManualMVC\\Views\\GitHut\\Index.cshtml",
+              "RelativeToolTip": "WebManualMVC\\Views\\GitHut\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T21:28:13.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GitHutController.cs",
+              "DocumentMoniker": "C:\\Users\\javie\\OneDrive\\Escritorio\\Nueva carpeta\\WebManualMVC\\WebManualMVC\\Controllers\\GitHutController.cs",
+              "RelativeDocumentMoniker": "WebManualMVC\\Controllers\\GitHutController.cs",
+              "ToolTip": "C:\\Users\\javie\\OneDrive\\Escritorio\\Nueva carpeta\\WebManualMVC\\WebManualMVC\\Controllers\\GitHutController.cs",
+              "RelativeToolTip": "WebManualMVC\\Controllers\\GitHutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T21:27:48.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\javie\\OneDrive\\Escritorio\\Nueva carpeta\\WebManualMVC\\WebManualMVC\\Views\\CrearBaseDatos\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebManualMVC\\Views\\CrearBaseDatos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\javie\\OneDrive\\Escritorio\\Nueva carpeta\\WebManualMVC\\WebManualMVC\\Views\\CrearBaseDatos\\Index.cshtml",
+              "RelativeToolTip": "WebManualMVC\\Views\\CrearBaseDatos\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T21:19:28.743Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

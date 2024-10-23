@@ -1,0 +1,60 @@
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\bin\Debug\net8.0\appsettings.json
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\bin\Debug\net8.0\WebManualMVC.staticwebassets.runtime.json
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\bin\Debug\net8.0\WebManualMVC.exe
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\bin\Debug\net8.0\WebManualMVC.deps.json
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\bin\Debug\net8.0\WebManualMVC.runtimeconfig.json
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\bin\Debug\net8.0\WebManualMVC.dll
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\bin\Debug\net8.0\WebManualMVC.pdb
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.AssemblyInfoInputs.cache
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.AssemblyInfo.cs
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.csproj.CoreCompileInputs.cache
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.RazorAssemblyInfo.cache
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.RazorAssemblyInfo.cs
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\staticwebassets\msbuild.WebManualMVC.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\staticwebassets\msbuild.build.WebManualMVC.props
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebManualMVC.props
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebManualMVC.props
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\scopedcss\bundle\WebManualMVC.styles.css
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\scopedcss\projectbundle\WebManualMVC.bundle.scp.css
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.dll
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\refint\WebManualMVC.dll
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.pdb
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.genruntimeconfig.cache
+C:\Users\diego.aguilera\source\repos\WebManualMVC\WebManualMVC\obj\Debug\net8.0\ref\WebManualMVC.dll
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\bin\Debug\net8.0\appsettings.json
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\bin\Debug\net8.0\WebManualMVC.staticwebassets.runtime.json
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\bin\Debug\net8.0\WebManualMVC.exe
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\bin\Debug\net8.0\WebManualMVC.deps.json
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\bin\Debug\net8.0\WebManualMVC.runtimeconfig.json
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\bin\Debug\net8.0\WebManualMVC.dll
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\bin\Debug\net8.0\WebManualMVC.pdb
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.AssemblyInfoInputs.cache
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.AssemblyInfo.cs
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.csproj.CoreCompileInputs.cache
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.RazorAssemblyInfo.cache
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.RazorAssemblyInfo.cs
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\staticwebassets\msbuild.WebManualMVC.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\staticwebassets\msbuild.build.WebManualMVC.props
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebManualMVC.props
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebManualMVC.props
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\scopedcss\bundle\WebManualMVC.styles.css
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\scopedcss\projectbundle\WebManualMVC.bundle.scp.css
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.dll
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\refint\WebManualMVC.dll
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.pdb
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\WebManualMVC.genruntimeconfig.cache
+C:\Users\javie\OneDrive\Escritorio\Nueva carpeta\WebManualMVC\WebManualMVC\obj\Debug\net8.0\ref\WebManualMVC.dll

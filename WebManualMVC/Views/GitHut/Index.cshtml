@@ -1,0 +1,87 @@
+﻿@model dynamic
+@{
+    ViewData["Title"] = "Pasos para Realizar la Copia del Código en Git";
+}
+
+<h2>@ViewData["Title"]</h2>
+<p>A continuación, se describen los pasos básicos para realizar la copia del código de un proyecto en Git, ya sea utilizando Visual Studio o la línea de comandos de Git.</p>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <!-- Paso 1 -->
+            <div class="card mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h4>1. Inicializar un Repositorio en Git</h4>
+                </div>
+                <div class="card-body">
+                    <p>Si aún no tienes un repositorio de Git en tu proyecto, el primer paso es inicializarlo. Puedes hacer esto usando la línea de comandos de Git o desde Visual Studio.</p>
+                    <h5>Usando la línea de comandos:</h5>
+                    <pre><code>cd RutaDelProyecto
+git init</code></pre>
+                    <h5>Usando Visual Studio:</h5>
+                    <p>Abre tu proyecto en Visual Studio, ve a la opción de "Team Explorer" y selecciona "New Git Repository" o "Add to Source Control".</p>
+                </div>
+            </div>
+
+            <!-- Paso 2 -->
+            <div class="card mb-4">
+                <div class="card-header bg-secondary text-white">
+                    <h4>2. Añadir los Archivos al Repositorio</h4>
+                </div>
+                <div class="card-body">
+                    <p>Una vez que hayas inicializado el repositorio, el siguiente paso es agregar los archivos del proyecto al repositorio de Git.</p>
+                    <h5>Usando la línea de comandos:</h5>
+                    <pre><code>git add .</code></pre>
+                    <p>Este comando añade todos los archivos al repositorio.</p>
+                    <h5>Usando Visual Studio:</h5>
+                    <p>Desde el panel de "Team Explorer", selecciona "Changes" y marca los archivos que quieres agregar al repositorio, luego haz clic en "Stage".</p>
+                </div>
+            </div>
+
+            <!-- Paso 3 -->
+            <div class="card mb-4">
+                <div class="card-header bg-success text-white">
+                    <h4>3. Realizar un Commit</h4>
+                </div>
+                <div class="card-body">
+                    <p>Después de añadir los archivos, debes crear un commit para registrar los cambios en el repositorio local.</p>
+                    <h5>Usando la línea de comandos:</h5>
+                    <pre><code>git commit -m "Primer commit del proyecto"</code></pre>
+                    <h5>Usando Visual Studio:</h5>
+                    <p>En "Team Explorer", después de haber añadido los archivos, selecciona "Commit" e ingresa un mensaje para el commit. Luego, haz clic en "Commit All".</p>
+                </div>
+            </div>
+
+            <!-- Paso 4 -->
+            <div class="card mb-4">
+                <div class="card-header bg-info text-white">
+                    <h4>4. Conectar el Repositorio Local con un Repositorio Remoto</h4>
+                </div>
+                <div class="card-body">
+                    <p>Para que puedas compartir tu código con otros o simplemente almacenarlo en un servidor remoto (como GitHub o GitLab), necesitas conectar tu repositorio local con un repositorio remoto.</p>
+                    <h5>Usando la línea de comandos:</h5>
+                    <pre><code>git remote add origin https://github.com/usuario/nombre-del-repositorio.git</code></pre>
+                    <p>Reemplaza <code>https://github.com/usuario/nombre-del-repositorio.git</code> con la URL de tu repositorio remoto.</p>
+                    <h5>Usando Visual Studio:</h5>
+                    <p>En "Team Explorer", selecciona "Sync" y en la sección de "Push to Remote Repository", añade la URL de tu repositorio remoto.</p>
+                </div>
+            </div>
+
+            <!-- Paso 5 -->
+            <div class="card mb-4">
+                <div class="card-header bg-danger text-white">
+                    <h4>5. Subir los Cambios al Repositorio Remoto</h4>
+                </div>
+                <div class="card-body">
+                    <p>Finalmente, debes enviar los cambios realizados en el repositorio local al repositorio remoto. Esto se realiza con el comando <code>push</code>.</p>
+                    <h5>Usando la línea de comandos:</h5>
+                    <pre><code>git push -u origin master</code></pre>
+                    <p>Este comando envía los commits locales al repositorio remoto en la rama <code>master</code>. La opción <code>-u</code> establece el repositorio remoto como predeterminado para futuros <code>push</code>.</p>
+                    <h5>Usando Visual Studio:</h5>
+                    <p>Desde el panel de "Team Explorer", selecciona "Sync" y luego haz clic en "Push" para subir los cambios al repositorio remoto.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
